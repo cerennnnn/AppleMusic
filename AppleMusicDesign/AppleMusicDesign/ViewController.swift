@@ -31,16 +31,39 @@ class ViewController: UIViewController {
         let m10 = Music(imageName: "brooke", title: "1.00 - 2.00", subtitle: "The Chart Show with Brooke Reese", info: "Featuring Future, Miguel, and Miley Cyrus.")
         
         musicList = [m1, m2, m3, m4, m5, m6, m7, m8, m9, m10]
+        
+        
+        let appearance = UITabBarAppearance()
+    
+        tabbarItemColor(itemAppearance: appearance.stackedLayoutAppearance)
+        tabbarItemColor(itemAppearance: appearance.inlineLayoutAppearance)
+        tabbarItemColor(itemAppearance: appearance.compactInlineLayoutAppearance)
+        
+        tabBarController?.tabBar.barStyle = .black
+        tabBarController?.tabBar.standardAppearance = appearance
+        tabBarController?.tabBar.scrollEdgeAppearance = appearance
+    }
+
+    func tabbarItemColor(itemAppearance: UITabBarItemAppearance) {
+        
+        itemAppearance.selected.iconColor = UIColor.red
+        itemAppearance.selected.titleTextAttributes = [.foregroundColor: UIColor.red]
+        
+        itemAppearance.normal.iconColor = UIColor.gray
+        itemAppearance.normal.titleTextAttributes = [.foregroundColor: UIColor.gray]
     }
 
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
         return musicList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MusicTableViewCell
         
         let item = musicList[indexPath.row]
@@ -52,4 +75,5 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         return cell
     }
+    
 }

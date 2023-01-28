@@ -13,6 +13,7 @@ class MusicTableViewCell: UITableViewCell {
     @IBOutlet var subtitle: UILabel!
     @IBOutlet var title: UILabel!
     @IBOutlet var musicImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

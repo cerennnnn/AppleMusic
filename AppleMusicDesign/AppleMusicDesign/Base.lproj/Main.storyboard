@@ -165,7 +165,7 @@
                         <viewLayoutGuide key="safeArea" id="gKf-uj-Zdk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Library" image="sparkles.rectangle.stack.fill" catalog="system" id="7Of-qT-G2l"/>
+                    <tabBarItem key="tabBarItem" title="Library" image="play.square.stack.fill" catalog="system" id="7Of-qT-G2l"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r3e-g2-wQF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -221,8 +221,8 @@
         <image name="ellipsis" catalog="system" width="128" height="37"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="play.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="play.square.stack.fill" catalog="system" width="112" height="128"/>
         <image name="pureThrowback" width="1945" height="1945"/>
-        <image name="sparkles.rectangle.stack.fill" catalog="system" width="128" height="122"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

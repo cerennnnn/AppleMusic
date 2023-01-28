@@ -19,4 +19,5 @@ class Music {
         self.subtitle = subtitle
         self.info = info
     }
+    
 }
