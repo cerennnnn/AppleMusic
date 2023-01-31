@@ -5,7 +5,7 @@
   - UITableView
   - UINavigationController
   - UITabbarController
-  - Delegate pattern
+  - Delegation pattern
   - Stack View
 
 <img width="520" alt="Screenshot 2023-01-29 at 01 15 26" src="https://user-images.githubusercontent.com/97634053/215293997-87c6de7e-d249-4858-b99a-59b288b87000.png">
