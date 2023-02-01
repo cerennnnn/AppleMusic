@@ -63,14 +63,30 @@
 				335A923C2983157800722892 /* AppDelegate.swift */,
 				335A923E2983157800722892 /* SceneDelegate.swift */,
 				335A92402983157900722892 /* ViewController.swift */,
-				335A92502983191300722892 /* MusicTableViewCell.swift */,
-				335A92522983191E00722892 /* Music.swift */,
+				33D9168A298AF40800778369 /* tableview */,
+				33D91689298AF3FD00778369 /* entity */,
 				335A92422983157900722892 /* Main.storyboard */,
 				335A92452983157A00722892 /* Assets.xcassets */,
 				335A92472983157A00722892 /* LaunchScreen.storyboard */,
 				335A924A2983157B00722892 /* Info.plist */,
 			);
 			path = AppleMusicDesign;
+			sourceTree = "<group>";
+		};
+		33D91689298AF3FD00778369 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				335A92522983191E00722892 /* Music.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		33D9168A298AF40800778369 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				335A92502983191300722892 /* MusicTableViewCell.swift */,
+			);
+			path = tableview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
